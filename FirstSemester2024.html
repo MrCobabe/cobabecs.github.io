@@ -3,10 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <title>Semester 1 2024</title>
+    <style>
+    .row{
+    display: flex;
+        height: 500px;
+
+    }
+    .col{
+    flex: 1;
+    border: none;
+    }
+    .buttons{
+        position: relative;
+        top: 20%;
+    }
+    .pics{
+        position: relative;
+        left: 40%;
+    }
+    </style>
 </head>
 <body>
 <h1>First Semester Projects 2024</h1><br><br>
 <h2>Check out some of our personal projects from the fall semester of 2024:</h2>
-
+<br><br>
+<div class="row" >
+    <div class="col" >
+        <img class="pics" src="pictures/2024A/JensSnake.png" alt="Picture of Jens Huckaby's Snake Game" height="60%">
+    </div>
+    <div class="col">
+        <a href="jarFiles/2024A/SNAKE_JensHuckaby.jar" class="buttons" target="_blank"><button>Snake by Jens Huckaby</button></a>
+    </div>
+</div>
+<br>
+<div class="row">
+    <div class="col">
+        <img class="pics" src="pictures/2024A/JoaoPong.png" height="60%" alt="Picture of Joao Teles' Pong Game">
+    </div>
+    <div class="col">
+        <a href="jarFiles/2024A/pong_JoaoPilaTeles.jar" target="_blank" class="buttons"><button>Pong by Joao Pila Teles</button></a>
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        <img class="pics" src="pictures/2024A/ZaneOregonTrail.png" alt="The Oregon Trail by Zane Komrofske" height="40%" style="left:0">
+    </div>
+    <div class="col">
+        <a href="jarFiles/2024A/oregonTrail_ZaneKomrofske.jar" target="_blank"><button>The Oregon Trail by Zane Komrofske</button></a>
+        <h4>Note this is a console game and will need to be run in the console. </h4>
+        <h4>1. Open Command Prompt (windows cmd) </h4>
+        <h4>2. Copy the path to the file (right click then copy as path)</h4>
+        <h4>3. In Command Prompt type java -jar "path" </h4>
+        <h4>4. Press enter. (Replace path in previous step with the path to the file.)</h4>
+    </div>
+</div>
 </body>
 </html>
